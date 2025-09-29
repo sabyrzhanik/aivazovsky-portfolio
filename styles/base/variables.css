@@ -1,0 +1,13 @@
+:root {
+	--color-light: #fff;
+	--color-light-alt: #f6f6f6;
+	--color-dark: #070707;
+	--color-gray: #828282;
+
+	--font-family: "Roboto", sans-serif;
+
+	--container-width: 950px;
+	--container-padding-x: 30px;
+
+	--transition-duration: 0.2s;
+}
