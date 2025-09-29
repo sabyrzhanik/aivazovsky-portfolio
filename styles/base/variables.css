@@ -10,4 +10,6 @@
 	--container-padding-x: 30px;
 
 	--transition-duration: 0.2s;
+
+	/* Media Queries: 992px, 768px, 576px */
 }
