@@ -16,3 +16,11 @@
 	clip: rect(0 0 0 0) !important;
 	overflow: hidden !important;
 }
+
+.title--medium {
+	font-size: 34px;
+}
+
+.image-caption {
+	font-weight: 500;
+}
