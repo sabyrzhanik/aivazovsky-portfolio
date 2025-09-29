@@ -43,4 +43,17 @@ h5,
 h6 {
 	font-weight: 700;
 	text-transform: capitalize;
+	line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 576px) {
+	body {
+		font-size: 14px;
+	}
 }

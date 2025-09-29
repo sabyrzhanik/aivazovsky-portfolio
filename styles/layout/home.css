@@ -1,0 +1,42 @@
+.home {
+	text-align: center;
+	padding-block: 46px 70px;
+}
+
+.home__title {
+	margin-bottom: 22px;
+	font-size: 46px;
+}
+
+.home__description {
+	margin-bottom: 36px;
+}
+
+.home__image {
+	width: 100%;
+	max-width: 950px;
+	height: 535px;
+	object-fit: cover;
+}
+
+@media (max-width: 576px) {
+	.home {
+		text-align: left;
+		padding-block: 66px 78px;
+	}
+
+	.home__title {
+		font-size: 32px;
+		max-width: 340px;
+		margin-bottom: 24px;
+	}
+
+	.home__description {
+		max-width: 320px;
+		margin-bottom: 28px;
+	}
+
+	.home__image {
+		height: 490px;
+	}
+}
