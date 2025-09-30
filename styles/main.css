@@ -4,6 +4,8 @@
 @import "./base/globals.css";
 @import "./base/utils.css";
 
+@import "./components/burger-menu.css";
+
 @import "./layout/header.css";
 @import "./layout/home.css";
 @import "./layout/about.css";

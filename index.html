@@ -30,6 +30,46 @@
 			</nav>
 		</header>
 
+		<div class="mobile-nav">
+			<label for="mobile-nav__toggler" class="mobile-nav__burger-toggle">
+				<svg class="mobile-nav__burger-icon">
+					<use href="./assets/sprites/burger-menu.svg#burger-icon"></use>
+				</svg>
+			</label>
+
+			<input
+				type="checkbox"
+				id="mobile-nav__toggler"
+				class="mobile-nav__toggler"
+			/>
+
+			<nav class="mobile-nav__menu">
+				<ul class="mobile-nav__list">
+					<li class="mobile-nav__item">
+						<a href="#home" class="mobile-nav__link">Home</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a href="#about" class="mobile-nav__link">About</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a href="#history" class="mobile-nav__link">History</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a href="#portfolio" class="mobile-nav__link">Portfolio</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a href="#contacts" class="mobile-nav__link">Contacts</a>
+					</li>
+				</ul>
+
+				<label for="mobile-nav__toggler" class="mobile-nav__close-toggle">
+					<svg class="mobile-nav__close-icon">
+						<use href="./assets/sprites/burger-menu.svg#cross-icon"></use>
+					</svg>
+				</label>
+			</nav>
+		</div>
+
 		<main class="content">
 			<section class="home container" id="home">
 				<h1 class="home__title">Ivan Constantinovich Aivazovski</h1>
